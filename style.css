@@ -1,0 +1,197 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #C6A472;
+    background-color: #FFFCF6;
+}
+
+
+/*********** HEADER ************/
+
+header {
+    font-family: 'Roboto Slab', serif;
+    background-color: #FFFCF6;
+    color: #C6A472;
+    padding: 10px;
+    text-align: center;
+}
+
+header a {
+    color: #C6A472;
+    text-decoration: none;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+/*********** LISTS ************/
+
+#todo-lists {
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 80%;
+}
+
+.list {
+    position: relative;
+}
+
+.text-over{
+    position: absolute;
+   top: 400px;
+   left: 150px;
+   width: 100%;
+   margin: 0 auto;
+   width: 300px;
+   height: 50px;
+}
+
+/*text over images*/
+
+.text-over1{
+    position: absolute;
+   top: 400px;
+   left: 650px;
+   width: 100%;
+   margin: 0 auto;
+   width: 300px;
+   height: 50px;
+}
+
+.text-over2{
+    position: absolute;
+   top: 400px;
+   left: 1150px;
+   width: 100%;
+   margin: 0 auto;
+   width: 300px;
+   height: 50px;
+}
+
+.list a {
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 2em;
+}
+
+.list-title {
+    font-size: 2em;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20px;
+}
+
+/*product page*/
+.progress-bar{
+    margin-right: 200px;
+}
+
+.progress-bar a{
+
+    text-align: center;
+    margin-left: 30px;
+    padding: 10px;
+    color: #C6A472;
+    font-size: 1em;
+
+    border-radius: 50px;
+    background-color: #FFFCF6;
+    border: 1px solid #C6A472;
+
+}
+
+
+.back-next{
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.prog{
+
+    text-align: center;
+}
+
+.button-loc{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.button-loc b{
+    font-family: 'Roboto Slab';
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+
+.progress-bar h3{
+
+    text-align:center;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    color: #C6A472;
+    font-size: 1.5em;
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+    
+    
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.about-us{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 5px 5px #C6A472;
+
+
+}
+
+img.rounded-corners {
+  border-radius: 30px;
+}
+
+button {
+    border-radius: 100px;
+    background-color: #FFFCF6;
+    border: 1px solid #C6A472;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #C6A472;
+    font-size: 1.25em;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #C6A472;
+    font-size: 0.8em;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do App</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- Page nav bar + title -->
+        <header>
+            <h1>Bun Bun Bake Shop</h1>
+            <nav>
+                <a href="index.html">Home</a> 
+                <a href="bakery.html">Bakery</a> 
+                <a href="index.html">Contact Us</a>
+            </nav>
+        </header>
+
+        <div id="todo-lists">
+            <div>
+                <h2 class="list-title">Blueberry</h2>
+                <div class="progress-bar">
+
+                    <!-- image of blueberry bun -->
+                    <div style = "float:left">
+                        <img src="blueberry-pp.png" alt="Fresh Buns" class="rounded-corners">
+                    </div>
+
+
+                    <div style = "float:right">
+                        <!-- progress bar -->
+                        <a>Quantity</a>
+                        <a>Glazing</a>
+                        <a>Add to Cart</a>
+
+                        <!-- Quantity buttons  -->
+                        <h3> Quantity </h3>
+                        <div class = "button-loc">
+                            <button onclick="addListItem()">-</button>
+                            <b> number of items </b>
+                            <button onclick="addListItem()">+</button>
+                        </div>
+
+                        <!-- Back+next buttons -->
+                        <div class= "back-next">
+                            <a href="bakery.html" >Back</a> 
+                            <a href="list1.html">Next</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
